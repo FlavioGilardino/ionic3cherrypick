@@ -13,7 +13,7 @@
                 <div class="item">
                     <img [src]="item.imageurl" class="img-product">
                     <div class="titulo">{{ item.nome }}</div>
-                    <button class="butt" ion-button (click)="showProduct(item)">Detail</button>
+                    <button class="butt" ion-button (click)="showProduct(item.id)">Detail</button>
                 </div>
             </div>
         </ion-item>

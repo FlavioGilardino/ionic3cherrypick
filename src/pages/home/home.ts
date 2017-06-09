@@ -29,13 +29,12 @@ export class HomePage {
     {id:"18",nome:"Mouchão Tonel N.º 3-4 2008", imageurl: "assets/images/gar5.jpg"},
     {id:"19",nome:"Tributo Tinto 2013", imageurl: "assets/images/gar6.jpg"}
     ];
-  public navCtrl: NavController;
-  constructor(_navCtrl: NavController) {
-      this.navCtrl = _navCtrl;
+
+  constructor(public navCtrl: NavController) {
   }
 
-  public showProduct(_item) {
-    this.navCtrl.push('DetailPage', {"item":_item});
+  public showProduct(_id) {
+    this.navCtrl.push('DetailPage', {"id":_id});
   }
 
 }
