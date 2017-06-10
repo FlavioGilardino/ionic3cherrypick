@@ -15,3 +15,32 @@
 .toolbar-md {
     padding: 0;
 }
+
+$background-color: #c9302c;
+$font-color: #ffffff;
+.toolbar-title-md {
+    background-color: $background-color;
+    color: $font-color;
+    height: 140px
+}
+
+.header {
+    background-color: $background-color;
+}
+
+.content {
+    background-color: $background-color;
+}
+
+.butt {
+    color: $font-color;
+    background-color: $background-color;
+}
+
+.back-button-md {
+    background-color: $background-color;
+}
+
+.toolbar-background {
+    background-color: $background-color;
+}

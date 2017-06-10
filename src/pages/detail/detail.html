@@ -6,20 +6,19 @@
 -->
 <ion-header>
     <ion-navbar>
-        <ion-title> Detail</ion-title>
+
+        <ion-title>
+            <img src="assets/images/cherry.png">{{item.nome}}</ion-title>
     </ion-navbar>
 </ion-header>
-
-
 <ion-content padding>
     <div class="item-border">
         <div class="item">
-            {{item.nome}}
-            <!-- <img [src]="item.imageurl" class="img-product">
+            <img [src]="item.imageurl" class="img-product">
             <div class="titulo">{{ item.nome }}</div>
-            <div class="description">{{ item.description }}</div>
-            <div class="price">{{ item.price }}</div>
-            <button ion-button (click)="showProduct(item.id)">Comprar</button>-->
+            <div class="description">{{ item.descricao }}</div>
+            <div class="price">{{ item.preco }}</div>
+            <button class="butt" ion-button (click)="showAlert()" round>Comprar</button>
         </div>
     </div>
 </ion-content>

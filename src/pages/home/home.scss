@@ -1,22 +1,7 @@
 page-home {
-    .toolbar-title-md {
-        background-color: #c9302c;
-        color: #ffffff;
-        height: 140px
-    }
-    .header {
-        background-color: #c9302c;
-    }
-    .content {
-        background-color: #c9302c;
-    }
-    .butt {
-        color: #c9302c;
-        background-color: #fff;
-    }
     .ionitem {
-        background-color: #c9302c;
-        color: #ffffff;
+        background-color: $background-color;
+        color: $font-color;
         .item {
             margin: 0 auto;
             text-align: center;
